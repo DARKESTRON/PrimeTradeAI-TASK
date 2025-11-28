@@ -11,21 +11,13 @@ connectDB();
 const app = express();
 
 // Middleware
-// Middleware
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, x-auth-token');
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
-  }
-  next();
-});
-app.use(cors({
-  origin: '*',
+const corsOptions = {
+  origin: process.env.CLIENT_ORIGIN || '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'x-auth-token']
-}));
+  allowedHeaders: ['Content-Type', 'x-auth-token'],
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Routes
@@ -43,8 +35,9 @@ app.use(require('./middleware/errorMiddleware'));
 
 const PORT = process.env.PORT || 5000;
 
-if (process.env.NODE_ENV !== 'production') {
-  app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
-}
+// Always start the server when this file is executed directly.
+// On Vercel serverless, `api/index.js` imports the app and Vercel
+// owns the request lifecycle instead of calling `listen` here.
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 module.exports = app;
