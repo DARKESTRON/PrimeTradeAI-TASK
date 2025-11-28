@@ -12,12 +12,16 @@ const app = express();
 
 // Middleware
 const corsOptions = {
-  origin: process.env.CLIENT_ORIGIN || '*',
+  // Allow specific origin via env in production; fall back to reflecting
+  // the request origin when not set to avoid CORS issues during deployment.
+  origin: process.env.CLIENT_ORIGIN || true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'x-auth-token'],
 };
 
 app.use(cors(corsOptions));
+// Handle preflight requests for all routes
+app.options('*', cors(corsOptions));
 app.use(express.json());
 
 // Routes
